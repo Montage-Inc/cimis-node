@@ -94,9 +94,12 @@ and the `fetchData` function fetches data for that station.
 }
 ```
 
-#### CurrentDate
+#### DateString
 
 ```
 String<YYYY-MM-DD>
 ```
 
+#### CurrentDate
+
+Today's date, formatted as a `DateString`
