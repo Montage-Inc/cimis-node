@@ -81,3 +81,22 @@ The canonical way to get a list of all Stations.
   fetchData: ({ options: Object, hourly: Boolean = true }) -> Object
 }
 ```
+
+A CIMIS weather station. The `detail` key contains data about the station itself
+and the `fetchData` function fetches data for that station.
+
+#### StationOptions
+
+```
+{
+  startDate: DateString = CurrentDate,
+  endDate: DateString = CurrentDate
+}
+```
+
+#### CurrentDate
+
+```
+String<YYYY-MM-DD>
+```
+
