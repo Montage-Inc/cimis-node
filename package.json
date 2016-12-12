@@ -1,0 +1,21 @@
+{
+  "name": "cimis-node",
+  "version": "1.0.0",
+  "description": "Node wrapper for the Cimis API",
+  "main": "lib/Cimis.js",
+  "author": "dphaener <dphaener@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/mocha/bin/_mocha 'spec/**/*.js'"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "fetch-everywhere": "^1.0.5",
+    "moment": "^2.17.1",
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
