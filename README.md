@@ -31,29 +31,6 @@ cimis.stations.all().then(stations => {
 });
 ```
 
-## Exports
-
-### Default
-
-`Cimis`
-
-### toQuery
-
-```
-(Object) -> String
-```
-
-Takes in a JavaScript object and returns a query string.
-
-### dataFetcher
-
-```
-(appKey) -> (path) -> (options) -> Promise
-```
-
-Takes the `appKey`, a URL `path` to append to the base API path, and a list
-of `options` to pass in the query string and returns a `Promise`
-
 ## API
 
 ### Cimis
