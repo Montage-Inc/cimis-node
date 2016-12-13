@@ -1,8 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const modules = require('../lib/Cimis');
-const Cimis = modules.default;
+const modules = require('../lib/Utils');
 const toQuery = modules.toQuery;
 
 describe('toQuery', function() {
