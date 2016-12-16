@@ -1,6 +1,6 @@
 {
   "name": "cimis-node",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Node wrapper for the Cimis API",
   "main": "build/Cimis.js",
   "author": "dphaener <dphaener@gmail.com>",
@@ -11,7 +11,7 @@
     "flow-type": "./node_modules/.bin/flow-typed install",
     "lint": "./node_modules/.bin/eslint ./lib/**/*",
     "build": "yarn test && yarn lint && yarn flow && ./node_modules/.bin/babel ./lib --out-dir build",
-    "prepublish": "yarn build"
+    "push": "yarn build && yarn publish"
   },
   "dependencies": {
     "es6-promise": "^4.0.5",
@@ -23,6 +23,8 @@
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
     "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
     "chai": "^3.5.0",
     "eslint": "^3.12.1",
     "eslint-plugin-flowtype": "^2.29.1",
