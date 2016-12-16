@@ -1,6 +1,6 @@
 {
   "name": "cimis-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node wrapper for the Cimis API",
   "main": "build/Cimis.js",
   "author": "dphaener <dphaener@gmail.com>",
